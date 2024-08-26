@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .brand_container {
+        display: flex;
+        flex-direction: column;
+      }
+      .brand_container a {
+        background-color: rgb(27, 205, 218);
+        text-decoration: none;
+        color: black;
+        width: 200px;
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        opacity: 0.6;
+      }
+      .brand_container a:hover {
+        opacity: 1;
+      }
+      .UAT a {
+        background-color: rgb(49, 218, 27);
+      }
+      .TEST a {
+        background-color: rgb(40, 27, 218);
+      }
+    </style>
+    <script>
+      function openMultipleUrls() {
+        const urls = [];
+        function open1() {
+          window.open("https://vanheusenindia.abfrl.in", "_blank");
+        }
+        function open2() {
+          window.open("https://forever21.abfrl.in", "_blank");
+        }
+        function open3() {
+          window.open("https://louisphilippe.abfrl.in", "_blank");
+        }
+        open1();
+        open2();
+        open3();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- -----------------test-------------------- -->
+      <div class="brand_container TEST">
+        <a href="https://test.vanheusenindia.abfrl.in" target="_blank"
+          >TEST vanheusenindia</a
+        >
+        <a href="https://test.louisphilippe.abfrl.in" target="_blank"
+          >TEST louisphilippe</a
+        >
+        <a href="https://test.peterengland.abfrl.in" target="_blank">
+          TEST peterengland</a
+        >
+        <a href="https://test.allensolly.abfrl.in" target="_blank">
+          TESTallensolly</a
+        >
+        <a href="https://test.reebok.abfrl.in" target="_blank"> TEST reebok</a>
+        <a href="https://test.aeo.abfrl.in" target="_blank"> TEST aeo</a>
+        <a href="https://test.simoncarter.abfrl.in" target="_blank">
+          TEST simoncarter</a
+        >
+        <a href="https://test.forever21.abfrl.in" target="_blank">
+          TEST forever21</a
+        >
+      </div>
+      <!-- ------------------uat--------------- -->
+      <div class="brand_container UAT">
+        <a href="https://uat.vanheusenindia.abfrl.in" target="_blank"
+          >UAT vanheusenindia</a
+        >
+        <a href="https://uat.louisphilippe.abfrl.in" target="_blank"
+          >UAT louisphilippe</a
+        >
+        <a href="https://uat.peterengland.abfrl.in" target="_blank"
+          >UAT peterengland</a
+        >
+        <a href="https://uat.allensolly.abfrl.in" target="_blank"
+          >UAT allensolly</a
+        >
+        <a href="https://uat.reebok.abfrl.in" target="_blank">UAT reebok</a>
+        <a href="https://uat.aeo.abfrl.in" target="_blank">UAT aeo</a>
+        <a href="https://uat.simoncarter.abfrl.in" target="_blank"
+          >UAT simoncarter</a
+        >
+        <a href="https://uat.forever21.abfrl.in" target="_blank"
+          >UAT forever21</a
+        >
+      </div>
+      <!-- ---------------------live-------------- -->
+      <div class="brand_container">
+        <a href="https://vanheusenindia.abfrl.in" target="_blank"
+          >vanheusenindia</a
+        >
+        <a href="https://louisphilippe.abfrl.in" target="_blank"
+          >louisphilippe</a
+        >
+        <a href="https://peterengland.abfrl.in" target="_blank">peterengland</a>
+        <a href="https://allensolly.abfrl.in" target="_blank">allensolly</a>
+        <a href="https://reebok.abfrl.in" target="_blank">reebok</a>
+        <a href="https://aeo.abfrl.in" target="_blank">aeo</a>
+        <a href="https://simoncarter.abfrl.in" target="_blank">simoncarter</a>
+        <a href="https://forever21.abfrl.in" target="_blank">forever21</a>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="./index.js"></script> -->
+</html>
